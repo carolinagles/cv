@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lack of Gravity | Game</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch it!</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>Choose your favorite</h1>
+      <ul class="space-list">
+        <li>
+          <button class="choose-item-btn">
+            <p>Astronaut</p>
+            <img
+              src="https://pngimg.com/uploads/astronaut/astronaut_PNG28.png"
+              alt="astronaut"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-item-btn">
+            <p>Mars</p>
+            <img
+              src="https://pngimg.com/uploads/mars_planet/mars_planet_PNG10.png"
+              alt="mars"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-item-btn">
+            <p>Rocket</p>
+            <img
+              src="https://pngimg.com/uploads/rockets/rockets_PNG13285.png"
+              alt="rocket"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-item-btn">
+            <p>UFO</p>
+            <img
+              src="https://pngimg.com/uploads/ufo/ufo_PNG71662.png"
+              alt="ufo"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        You must know: <br />
+        You are playing an impossible game!!
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

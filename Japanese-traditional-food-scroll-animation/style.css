@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  
+    body {
+      background-image: url('https://images.unsplash.com/photo-1558554970-1e3279cd745d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+        font-family: 'Anton', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+      overflow-x: hidden;
+    }
+    
+    h1{
+        color: #ffffff;
+        font-size: 52px;
+        margin: 30px;
+        -webkit-text-stroke: 2px rgb(252, 255, 64);
+            color: transparent;
+    }
+    
+  .box {
+    background-color:  #000000;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+  }
+  
+  .box:nth-of-type(even) {
+    transform: translateX(-400%);
+  }
+  
+  .box.show {
+    transform: translateX(0);
+  }
+  
